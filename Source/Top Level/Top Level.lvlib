@@ -6,6 +6,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Messages" Type="Folder">
 		<Item Name="Password Authentication Msg.lvclass" Type="LVClass" URL="../../Top Level Messages/Password Authentication Msg/Password Authentication Msg.lvclass"/>
+		<Item Name="Reset Graph Msg.lvclass" Type="LVClass" URL="../../Top Level Messages/Reset Graph Msg/Reset Graph Msg.lvclass"/>
 	</Item>
 	<Item Name="Top Level.lvclass" Type="LVClass" URL="../Top Level.lvclass"/>
 </Library>
