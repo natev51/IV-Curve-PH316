@@ -288,6 +288,8 @@
 				<Item Name="DAQmx Write.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write.vi"/>
 				<Item Name="Search Analog Waveform.vi" Type="VI" URL="/&lt;vilib&gt;/NathanCo/Analog Tasks/Utilities/Search Analog Waveform.vi"/>
 				<Item Name="Parse Analog Waveform.vi" Type="VI" URL="/&lt;vilib&gt;/NathanCo/Analog Tasks/Utilities/Parse Analog Waveform.vi"/>
+				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
+				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>

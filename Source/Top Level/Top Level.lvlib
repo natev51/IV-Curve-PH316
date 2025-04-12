@@ -11,9 +11,6 @@
 		<Item Name="Save Msg.lvclass" Type="LVClass" URL="../../Top Level Messages/Save Msg/Save Msg.lvclass">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
-		<Item Name="Save Path Msg.lvclass" Type="LVClass" URL="../../Top Level Messages/Save Path Msg/Save Path Msg.lvclass">
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		</Item>
 	</Item>
 	<Item Name="Top Level.lvclass" Type="LVClass" URL="../Top Level.lvclass"/>
 </Library>
