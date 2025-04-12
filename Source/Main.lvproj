@@ -300,6 +300,144 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="IV-Curve v0.1" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{52D35054-E7D6-4AB6-B4C1-DDF446352490}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{2579FCAC-572C-42B7-AB01-A528AA7C9A58}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{2540A677-04BA-4A5A-8BA9-48D397C08F3A}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">IV-Curve v0.1</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/IV-Curve v0.1</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{B83BA321-01EE-4C30-9CB0-03A5C9D44512}</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">IV-Curve v0.1.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/IV-Curve v0.1/IV-Curve v0.1.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/IV-Curve v0.1/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B583A9A1-09D5-463D-849B-3A9564B81E6C}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Top Level.lvlib</Property>
+				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="TgtF_companyName" Type="Str">Portland State University</Property>
+				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">IV-Curve v0.1</Property>
+				<Property Name="TgtF_internalName" Type="Str">IV-Curve v0.1</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2025 Portland State University</Property>
+				<Property Name="TgtF_productName" Type="Str">IV-Curve v0.1</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{8CA41452-D1C5-4674-A2EC-070AA2DA3616}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">IV-Curve v0.1.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="IV-Curve v0.1 installer" Type="Installer">
+				<Property Name="Destination[0].name" Type="Str">IV-Curve v0.1</Property>
+				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
+				<Property Name="Destination[0].tag" Type="Str">{B555CB72-E098-4C8A-830C-2DC5B2EBD4A6}</Property>
+				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
+				<Property Name="DestinationCount" Type="Int">1</Property>
+				<Property Name="DistPart[0].flavorID" Type="Str">_full_</Property>
+				<Property Name="DistPart[0].productID" Type="Str">{5F896240-152C-41BF-BEEE-7EAF5609317A}</Property>
+				<Property Name="DistPart[0].productName" Type="Str">NI-DAQmx Runtime 21.3</Property>
+				<Property Name="DistPart[0].upgradeCode" Type="Str">{923C9CD5-A0D8-4147-9A8D-998780E30763}</Property>
+				<Property Name="DistPart[1].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[1].productID" Type="Str">{3BD81D89-DF1B-460D-8F73-9F8C29DA6771}</Property>
+				<Property Name="DistPart[1].productName" Type="Str">NI LabVIEW Runtime 2021 SP1 f6 (64-bit)</Property>
+				<Property Name="DistPart[1].SoftDep[0].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[1].SoftDep[0].productName" Type="Str">NI ActiveX Container (64-bit)</Property>
+				<Property Name="DistPart[1].SoftDep[0].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
+				<Property Name="DistPart[1].SoftDep[1].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[1].SoftDep[1].productName" Type="Str">NI Deployment Framework 2021 (64-bit)</Property>
+				<Property Name="DistPart[1].SoftDep[1].upgradeCode" Type="Str">{E0D3C7F9-4512-438F-8123-E2050457972B}</Property>
+				<Property Name="DistPart[1].SoftDep[10].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[1].SoftDep[10].productName" Type="Str">NI TDM Streaming 21.1</Property>
+				<Property Name="DistPart[1].SoftDep[10].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
+				<Property Name="DistPart[1].SoftDep[2].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[1].SoftDep[2].productName" Type="Str">NI Error Reporting 2020 (64-bit)</Property>
+				<Property Name="DistPart[1].SoftDep[2].upgradeCode" Type="Str">{785BE224-E5B2-46A5-ADCB-55C949B5C9C7}</Property>
+				<Property Name="DistPart[1].SoftDep[3].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[1].SoftDep[3].productName" Type="Str">NI LabVIEW Real-Time NBFifo 2021</Property>
+				<Property Name="DistPart[1].SoftDep[3].upgradeCode" Type="Str">{60862FC9-172E-3FDE-A2A4-A56A76681431}</Property>
+				<Property Name="DistPart[1].SoftDep[4].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[1].SoftDep[4].productName" Type="Str">NI Logos 21.0</Property>
+				<Property Name="DistPart[1].SoftDep[4].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
+				<Property Name="DistPart[1].SoftDep[5].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[1].SoftDep[5].productName" Type="Str">NI LabVIEW Web Server 2021 (64-bit)</Property>
+				<Property Name="DistPart[1].SoftDep[5].upgradeCode" Type="Str">{5F449D4C-83B9-492E-986B-6B85A29C431D}</Property>
+				<Property Name="DistPart[1].SoftDep[6].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[1].SoftDep[6].productName" Type="Str">NI mDNS Responder 21.5</Property>
+				<Property Name="DistPart[1].SoftDep[6].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
+				<Property Name="DistPart[1].SoftDep[7].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[1].SoftDep[7].productName" Type="Str">Math Kernel Libraries 2017</Property>
+				<Property Name="DistPart[1].SoftDep[7].upgradeCode" Type="Str">{699C1AC5-2CF2-4745-9674-B19536EBA8A3}</Property>
+				<Property Name="DistPart[1].SoftDep[8].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[1].SoftDep[8].productName" Type="Str">Math Kernel Libraries 2020</Property>
+				<Property Name="DistPart[1].SoftDep[8].upgradeCode" Type="Str">{9872BBBA-FB96-42A4-80A2-9605AC5CBCF1}</Property>
+				<Property Name="DistPart[1].SoftDep[9].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[1].SoftDep[9].productName" Type="Str">NI VC2015 Runtime</Property>
+				<Property Name="DistPart[1].SoftDep[9].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
+				<Property Name="DistPart[1].SoftDepCount" Type="Int">11</Property>
+				<Property Name="DistPart[1].upgradeCode" Type="Str">{130967B8-62DA-3725-A46E-2E8360EA95EA}</Property>
+				<Property Name="DistPart[2].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[2].productID" Type="Str">{95941D18-5054-4448-A6BD-BCC01BFC3C7B}</Property>
+				<Property Name="DistPart[2].productName" Type="Str">NI System Configuration .NET Runtime for .NET Framework 4.6</Property>
+				<Property Name="DistPart[2].upgradeCode" Type="Str">{67B28CDF-779F-4203-89FF-094FA1FDE46C}</Property>
+				<Property Name="DistPartCount" Type="Int">3</Property>
+				<Property Name="INST_author" Type="Str">Portland State University</Property>
+				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
+				<Property Name="INST_buildLocation" Type="Path">../builds/IV-Curve v0.1 installer/IV-Curve v0.1 installer</Property>
+				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
+				<Property Name="INST_buildSpecName" Type="Str">IV-Curve v0.1 installer</Property>
+				<Property Name="INST_defaultDir" Type="Str">{B555CB72-E098-4C8A-830C-2DC5B2EBD4A6}</Property>
+				<Property Name="INST_installerName" Type="Str">install.exe</Property>
+				<Property Name="INST_productName" Type="Str">IV-Curve v0.1 installer</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.3</Property>
+				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
+				<Property Name="InstSpecVersion" Type="Str">21018006</Property>
+				<Property Name="MSI_arpCompany" Type="Str">Portland State University</Property>
+				<Property Name="MSI_distID" Type="Str">{FA3B61B4-4326-4050-96CC-F2C4C4C1B25B}</Property>
+				<Property Name="MSI_hideNonRuntimes" Type="Bool">true</Property>
+				<Property Name="MSI_osCheck" Type="Int">0</Property>
+				<Property Name="MSI_upgradeCode" Type="Str">{7836B34D-B7D1-4E1B-BFE3-7FBB66BC7858}</Property>
+				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
+				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
+				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
+				<Property Name="RegDestCount" Type="Int">1</Property>
+				<Property Name="Source[0].dest" Type="Str">{B555CB72-E098-4C8A-830C-2DC5B2EBD4A6}</Property>
+				<Property Name="Source[0].File[0].dest" Type="Str">{B555CB72-E098-4C8A-830C-2DC5B2EBD4A6}</Property>
+				<Property Name="Source[0].File[0].name" Type="Str">IV-Curve v0.1.exe</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">IV-Curve v0.1</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str"></Property>
+				<Property Name="Source[0].File[0].Shortcut[1].destIndex" Type="Int">1</Property>
+				<Property Name="Source[0].File[0].Shortcut[1].name" Type="Str">IV-Curve v0.1</Property>
+				<Property Name="Source[0].File[0].Shortcut[1].subDir" Type="Str"></Property>
+				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">2</Property>
+				<Property Name="Source[0].File[0].tag" Type="Str">{8CA41452-D1C5-4674-A2EC-070AA2DA3616}</Property>
+				<Property Name="Source[0].FileCount" Type="Int">1</Property>
+				<Property Name="Source[0].name" Type="Str">IV-Curve v0.1</Property>
+				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/IV-Curve v0.1</Property>
+				<Property Name="Source[0].type" Type="Str">EXE</Property>
+				<Property Name="SourceCount" Type="Int">1</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
